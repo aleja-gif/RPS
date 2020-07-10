@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+      <div class="badge user_label">user</div>
+      <div class="badge comp_label">comp</div>
+      <span id="user_score">0</span>:<span id="comp_score">0</span>
+    </div>
+    <div class="result" id="result"></div>
+    <div class="choices">
+      <p class="action">Make your move</p>
+      <div class="your_choices">
+        <div id="rock" class="choice">
+          <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+        </div>
+        <div class="choice" id="paper">
+          <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+        </div>
+        <div class="choice" id="sci">
+          <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <p class="action">Computer's choice</p>
+    <div class="compuchoice"></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
